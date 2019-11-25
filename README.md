@@ -1,7 +1,7 @@
-# block-subscriber
+# eth-block-subscriber
 Subscribe Highest Block
 ```js
-const Subscriber = require('./block-sub')
+const Subscriber = require('eth-block-subscriber')
 const subscriber = new Subscriber('<ETH_RPC>')
 
 async function main () {
